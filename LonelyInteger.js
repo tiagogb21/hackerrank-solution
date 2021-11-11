@@ -8,7 +8,6 @@ function lonelyinteger(a) {
       obj[a[i]] += 1;
     }
   }
-  console.log(obj)
   for(let i in obj){
     console.log(obj[i])
     if(obj[i]===1){
